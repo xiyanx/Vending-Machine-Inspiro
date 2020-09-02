@@ -22,4 +22,4 @@ Stok :
    4)  Tango: 2
    5)  Cokelat: 1
    
-Uang Kembalian yang tersedia didalam mesin : Rp. 400.000
+Uang Kembalian yang tersedia didalam mesin : Rp. 500.000
