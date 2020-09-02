@@ -12,7 +12,7 @@ Buatlah Object Oriented Program yang dapat menjalankan fungsi-fungsi sbb:
 4. Vending machine dapat menerima uang dengan pecahan : 2000, 5000, 10000, 20000, 50000.
 5. Vending Machine dapat melakukan pembelian, pengembalian uang dan mendeteksi jika ada makanan yang stok-nya sedang habis.
 
-**INFO**
+##INFO
 Karena Inspiro tidak memberikan Stok Makanan dan Sisa uang kembalian yang tersedia didalam mesin maka akan saya buat sesuai dengan dibawah ini
 
 Stok :
