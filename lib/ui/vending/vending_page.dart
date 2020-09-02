@@ -28,35 +28,35 @@ class VendingPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Row(
-        children: <Widget>[
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              _getVendingImage(screenWidth)
-            ],
-          ),
-          SizedBox(width: screenWidth / 2, child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              _currentUangSizeText(bloc),
-              _displayText(bloc),
-              _getSpacer(),
-              _getProductText(),
-              _productSatuButton(bloc),
-              _productDuaButton(bloc),
-              _productTigaButton(bloc),
-              _productEmpatButton(bloc),
-              _productLimaButton(bloc),
-              _getSpacer(),
-              _getOptionsText(),
-              _masukkanUangButton(bloc),
-              _ubahUangButton(bloc),
-              _ambilKembalianButton(bloc),
-              _returnButton(bloc),
-            ],))
-        ],
+                  children: <Widget>[
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        _getVendingImage(screenWidth),
+                        _getOptionsText(),
+                        _masukkanUangButton(bloc),
+                        _ubahUangButton(bloc),
+                        _ambilKembalianButton(bloc),
+                        _returnButton(bloc)
+                      ],
+                    ),
+                    SizedBox(width: screenWidth / 2, child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        _currentUangSizeText(bloc),
+                        _displayText(bloc),
+                        _getSpacer(),
+                        _getProductText(),
+                        _productSatuButton(bloc),
+                        _productDuaButton(bloc),
+                        _productTigaButton(bloc),
+                        _productEmpatButton(bloc),
+                        _productLimaButton(bloc),
+                        _getSpacer(),
+                      ],))
+                  ],
                 ),
                 _getSpacer(height: 25),
                 _getCurrentText(bloc)
